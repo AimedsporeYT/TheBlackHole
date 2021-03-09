@@ -2,7 +2,7 @@ function blackhole(ctx){
 	this.x=ctx.canvas.width/2;
 	this.y=ctx.canvas.height/2;
 	this.r= ctx.canvas.width/60;
-	this.mass=1000;
+	this.mass=10;
 	this.vx=0;
 	this.vy=0;
 	
@@ -204,7 +204,7 @@ function init(){
 	document.getElementById("moon").addEventListener("click", function(){
 		r= cw/250;
 		mass=1;
-		color="gray";
+		color="lime";
 		massscore=1;
 		document.getElementById("star").style.color = "black";
 		document.getElementById("planet").style.color = "black";
