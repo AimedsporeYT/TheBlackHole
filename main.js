@@ -2,7 +2,7 @@ function blackhole(ctx){
 	this.x=ctx.canvas.width/2;
 	this.y=ctx.canvas.height/2;
 	this.r= ctx.canvas.width/60;
-	this.mass=1000;
+	this.mass=100;
 	this.vx=0;
 	this.vy=0;
 	
